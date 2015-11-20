@@ -1,0 +1,23 @@
+﻿<Application 
+    x:Class="Timelog.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:local="clr-namespace:Converters">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <local:StringToDate x:Key="StringToDateConverter"/>
+        <local:StringToTime x:Key="StringToTimeConverter"/>
+        <ImageBrush x:Key="backimg" ImageSource="/SplashScreenImage.jpg" />
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
