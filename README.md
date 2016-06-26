@@ -7,4 +7,4 @@ You can then export a selected month to XLS, CSV formats to upload them to OneDr
 
 ##Compatibility
 
-This app was originally developed for ```Windows Phone 7.5 Tango``` and was later upgraded to ```Windows Phone 8```. It has neven been tested on ```Windows 10 Mobile```.
+This app was originally developed for ```Windows Phone 7.5 Tango``` and was later upgraded to ```Windows Phone 8```. It has never been tested on ```Windows 10 Mobile```.
